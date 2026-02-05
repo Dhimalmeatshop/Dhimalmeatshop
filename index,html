@@ -1,98 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dhimal Meat Shop | Fresh Pork Meat Kathmandu</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Dhimal Meat Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="header">
-  <h1>Dhimal Meat Shop</h1>
-  <div class="header-buttons">
-    <a href="tel:+9779709717161" class="btn call">Call</a>
-    <a href="https://wa.me/9779709717161" class="btn whatsapp">WhatsApp</a>
+  <div class="container">
+    <h1>Dhimal Meat Shop</h1>
+    <p class="nepali">धिमाल मासु पसल</p>
+
+    <div class="card">
+      <h2>Fresh Pork Meat</h2>
+      <ul>
+        <li>Pork Belly</li>
+        <li>Pork Ribs</li>
+        <li>Minced Pork</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <p><strong>📍 Location:</strong><br>
+      Bu. Na. Pa. -10, Kapan (Shiva Mandir), Kathmandu</p>
+
+      <p><strong>⏰ Opening Hours:</strong><br>
+      6:00 AM – 10:00 PM<br>
+      Open All Week</p>
+
+      <p><strong>🚚 Delivery:</strong><br>
+      All Kathmandu Area</p>
+    </div>
+
+    <a class="call-btn" href="tel:+9779709717161">📞 Call Now</a>
+    <a class="whatsapp-btn" href="https://wa.me/9779709717161">💬 WhatsApp</a>
+
+    <iframe
+      src="https://maps.google.com/maps?q=Kapan%20Shiva%20Mandir&t=&z=15&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+
   </div>
-</header>
-
-<!-- HERO -->
-<section class="hero">
-  <h2>Fresh & Hygienic Pork Meat</h2>
-  <p>कापन, काठमाडौं</p>
-  <p class="delivery">🚚 Delivering All Over Kathmandu</p>
-
-  <div class="hero-buttons">
-    <a href="tel:+9779709717161" class="btn big">📞 Call Now</a>
-    <a href="https://wa.me/9779709717161" class="btn big whatsapp">💬 WhatsApp Order</a>
-  </div>
-</section>
-
-<!-- INTRO -->
-<section class="section">
-  <h3>Fresh Pork Meat You Can Trust</h3>
-  <p>
-    We provide fresh, hygienic pork meat daily.  
-    Based in Kapan, now delivering all over Kathmandu.
-  </p>
-  <p>
-    हामी ताजा र स्वच्छ सुँगुरको मासु उपलब्ध गराउँछौं।  
-    अब काठमाडौंभर डेलिभरी सेवा।
-  </p>
-</section>
-
-<!-- PRODUCTS -->
-<section class="section gray">
-  <h3>Our Products | हाम्रा उत्पादनहरू</h3>
-
-  <div class="products">
-    <div class="card">🥩 Fresh Pork Meat<br/>ताजा सुँगुरको मासु</div>
-    <div class="card">🥓 Pork Belly<br/>बेली मासु</div>
-    <div class="card">🍖 Pork Ribs<br/>रिब्स</div>
-    <div class="card">🔪 Minced Pork<br/>किमा</div>
-  </div>
-
-  <p class="note">Prices may vary daily | मूल्य दैनिक फरक हुन सक्छ</p>
-
-  <a href="https://wa.me/9779709717161" class="btn big whatsapp">Order on WhatsApp</a>
-</section>
-
-<!-- DELIVERY -->
-<section class="section maroon">
-  <h3>🚚 Home Delivery Available</h3>
-  <p>Fast & safe delivery across Kathmandu</p>
-  <p>काठमाडौंभर छिटो र सुरक्षित डेलिभरी</p>
-  <a href="tel:+9779709717161" class="btn big">Call to Order</a>
-</section>
-
-<!-- LOCATION -->
-<section class="section gray">
-  <h3>📍 Our Location</h3>
-  <p>
-    Bu. Na. Pa.–10, Kapan, Shiva Mandir, Kathmandu<br/>
-    बुढानिलकण्ठ–१०, कापन, शिव मन्दिर
-  </p>
-
-  <p><strong>Opening Hours:</strong><br/>
-    6:00 AM – 10:00 PM (All Week)
-  </p>
-
-  <a href="https://maps.app.goo.gl/n4veHj19wydLgujEA" class="btn">View on Google Maps</a>
-</section>
-
-<!-- FOOTER -->
-<footer class="footer">
-  <p>Dhimal Meat Shop</p>
-  <p>📞 +977 9709717161</p>
-  <p>© 2026 dhimalmeatshop.com</p>
-</footer>
-
-<!-- FIXED BOTTOM BAR -->
-<div class="bottom-bar">
-  <a href="tel:+9779709717161">📞 Call</a>
-  <a href="https://wa.me/9779709717161">💬 WhatsApp</a>
-</div>
 
 </body>
 </html>
